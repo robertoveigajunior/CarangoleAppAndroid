@@ -29,7 +29,6 @@ public class DetalheActivity extends AppCompatActivity {
             Carro carro = getIntent().getParcelableExtra("carro");
             Picasso.with(this).load(carro.getFoto()).placeholder(R.mipmap.ic_launcher).into(imagem);
             desc.setText(carro.getDescricao());
-
         }
     }
 }
